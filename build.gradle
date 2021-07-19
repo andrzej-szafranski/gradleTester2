@@ -1,9 +1,13 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
+application {
+    mainClassName = 'com.s4b.gradleTester2'
+}
 group 'com.s4b'
-version '1.0-SNAPSHOT'
+version '1.0.1'
 
 repositories {
     mavenCentral()
